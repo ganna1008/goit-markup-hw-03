@@ -397,7 +397,6 @@ img {
 
 .portfolio-item {
   flex-basis: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
 }
 
 /* with nth child */
@@ -414,6 +413,9 @@ img {
 
 .portfolio-content {
   padding: 20px 24px;
+  border-color: #eeeeee;
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
 }
 
 .portfolio-title {
